@@ -6,14 +6,14 @@ country: "DE"      # lowercase two-letter ISO country code such as "fr" (see htt
 language: "de"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)
 latitude: "50.937531"     # decimal latitude of workshop venue (use https://www.latlong.net/)
 longitude: "6.960279"    # decimal longitude of the workshop venue (use https://www.latlong.net)
-humandate: "Mar 6, 2023"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
+humandate: "Mar 7, 2023"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
 humantime: "09:00 - 13:00"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
-startdate: 2023-02-06      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
-enddate: 2023-02-06        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
-instructor: ["Rabea Müller"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
+startdate: 2023-03-07      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
+enddate: 2023-03-07        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
+instructor: ["Rabea Müller", "Konrad Förstner"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
 helper: ["TBA"]   # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["muellerr@zbmed.de"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
-collaborative_notes: https://pad.gwdg.de/pZmsVAsTSj2hCAzvmRc8QQ # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document (e.g., https://pad.carpentries.org/2015-01-01-euphoria)
+collaborative_notes: https://pad.gwdg.de/qJNvcXbfTxG_kAWYWdBEww # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document (e.g., https://pad.carpentries.org/2015-01-01-euphoria)
 eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 ---
 
@@ -303,21 +303,7 @@ please preview your site before committing, and make sure to run
 
 <h2 id="setup">Setup</h2>
 
-<h3>DB Browser for SQLite</h3>
+<h3>Wikidata</h3>
 <p>
-You will need to install <a href="http://sqlitebrowser.org/">DB Browser for SQLite</a> to complete these lessons. DB Browser for SQLite provides a graphical user interface for connecting to and interacting with a SQLite database. This application bundles SQLite, so you won’t need to install SQLite separately. <br />
-
-Note: on Windows, the PortableApp download is recommended as the regular version may take a long time to install on certain systems.
-</p>
-<h3>Download the data</h3>
-<p>
-To import data, you’ll need to open DB Browser for SQLite and download a zip file containing the data files for this tutorial.<br />
-
-1. Download the data files doaj-article-sample.zip from <a href="http://doi.org/10.5281/zenodo.2822005">Zenodo</a>.<br />
-2. Open the zip file with the zip utlity on your machine and save the folder and files to a location where you can easily find them. For example, your Desktop.<br />
-3. Contained in the zip file are two files, doaj-article-sample.db and doaj-article-sample.db.sql. You can either open the database file (less steps) or import the SQL file (more steps). <br />
-  
-<b>You can find detailed instruction on the <a href="https://librarycarpentry.org/lc-sql/setup.html">SQL Setup Page</a>.</b>
-  
-
+No pre-installations are required for the Wikidata Workshop. If you wish, you can create a <a href="https://www.wikidata.org/w/index.php?title=Special:CreateAccount&returnto=Wikidata%3AMain+Page">Wikidata account</a>. However, this is not a prerequisite for participation in the workshop.
 </p>
